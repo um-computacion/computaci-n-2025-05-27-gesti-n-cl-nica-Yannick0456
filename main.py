@@ -1,7 +1,7 @@
-from modelo.clinica import Clinica
-from modelo.paciente import Paciente
-from modelo.medico import Medico
-from modelo.especialidad import Especialidad
+from src.modelo.clinica import Clinica
+from src.modelo.paciente import Paciente
+from src.modelo.medico import Medico
+from src.modelo.especialidad import Especialidad
 from datetime import datetime
 
 clinica = Clinica()
