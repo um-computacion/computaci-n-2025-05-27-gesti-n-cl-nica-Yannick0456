@@ -6,7 +6,7 @@
 ### 📋 Datos Personales
 - **Nombre y Apellido**: [Franco Yannick Baroné Lima]
 - **Ciclo Lectivo**: 2025
-- **Carrera**: [Ingienieria Informatica]
+- **Carrera**: [Ingenieria Informatica]
 
 ## ⏰ Información Importante sobre la Entrega
 
