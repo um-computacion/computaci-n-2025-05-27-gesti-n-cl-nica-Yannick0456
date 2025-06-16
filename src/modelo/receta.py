@@ -1,7 +1,7 @@
 from datetime import datetime
 
 class Receta:
-    def __init__(self, paciente, medico, medicamentos):
+    def __init__(self, paciente, medico, medicamentos: list[str]):
         self.__paciente = paciente
         self.__medico = medico
         self.__medicamentos = medicamentos
@@ -9,4 +9,5 @@ class Receta:
 
     def __str__(self):
         meds = ", ".join(self.__medicamentos)
-        return f"Receta: {self.__paciente} | {self.__medico} | Medicamentos: {meds} | Fecha: {self.__fecha.strftime('%d/%m/%Y')}"
+        return f"Receta para {self.__paciente} emitida por {self.__medico} el {self.__fecha.strftime('%d/%m/%Y')}: {meds}"
+
